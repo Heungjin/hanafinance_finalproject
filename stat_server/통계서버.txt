@@ -1,0 +1,30 @@
+통계 서버
+
+Python 2.7.14 Windows Installer -> https://www.python.org/ftp/python/2.7.14/python-2.7.14.msi
+32비트 설치
+처음화변에서 add python.exe to path 설정해주시고
+Next 버튼만 계속 눌러주세요~
+
+cmd 창에 아무데서나 python실행되면 설치 완료 
+-----------------------------------------------------------
+이클립스에 파이썬 연동
+Help > Eclipse Marketplace > pydev 찾기 > PyDev install
+Quick Access 옆 버튼 누르고 PyDev 선택
+File -> new -> pyDev Project 선택
+Grammar Version 2.7선택
+Quick ~~~ 적용 누르고 finish
+만들어진 프로젝트 파일에서 왼쪽버튼 누르고 new -> pyDev Modul 선택
+Python modul 만들기
+test 코드 -> 만들어진 py 파일에 print 'Hellow World' 쓰고
+실행버튼 클릭 -> Python Run 으로 OK
+콜솔 창에 Hello World 나오면 설정 완료
+-------------------------------------------------------------------
+cmd 창으로 python이 설피된 폴더 하위의 scripts폴더로 이동
+pip install pymysql -> 설치
+->python
+->import pymysql
+->pymysql 
+입력시 ~~~~~~~~~~.py'> 라고 나오면 설치 완료
+------------------------------------------------------------
+mysql에서 hana_project  데이터 베이스(스키마) 생성
+statistic.py실행
